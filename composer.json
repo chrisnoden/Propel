@@ -1,5 +1,5 @@
 {
-  "name": "chrisnoden/Propel",
+  "name": "chrisnoden/propel",
   "description": "Propel is an open-source Object-Relational Mapping (ORM) for PHP5.",
   "keywords": ["orm", "active record", "mapping", "database", "persistence"],
   "homepage": "http://www.propelorm.org/",
@@ -16,11 +16,6 @@
   "require": {
     "php": ">=5.2.4",
     "phing/phing": "~2.4"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.6-dev"
-    }
   },
   "bin": ["generator/bin/propel-gen", "generator/bin/propel-gen.bat"]
 }
